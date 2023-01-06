@@ -32,7 +32,7 @@ function App() {
       <div>
      {isLoading ?  <Ip ip={ip}  /> : <Loading />}
      </div>
-     <img className='flag' src={countryFlag}  />
+     <img className='flag' src={countryFlag} alt="country flag"  />
      {isLoading ?  <Map ip={ip} lat={lat} lng={lng} /> : <Loading />}
     </div>
   );
