@@ -1,0 +1,13 @@
+#map {
+  height: 250px;
+}
+
+.leaflet-container {
+  width: 50vh;
+  height: 50vh;
+}
+
+.flag {
+  height: 100px;
+  width: 100px;
+}
