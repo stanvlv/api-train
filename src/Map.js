@@ -1,6 +1,5 @@
 import { MapContainer, TileLayer, useMap } from "react-leaflet"
 import { Marker, Popup } from "react-leaflet"
-import {useState, useEffect} from 'react'
 
 
 export default function Map ({ip, lat, lng}) {
